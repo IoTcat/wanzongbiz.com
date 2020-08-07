@@ -52,8 +52,7 @@
 						<header>
 							<div class="inner">
 								<h2>贵州茅台-冬虫夏草</h2>
-								<p>茅台北冬虫夏草酒，由茅台保健酒业有限公司与北京北方强盛商贸有限公司和北京北方亿星糖酒有限公司联合推出的高级养生保健酒。茅台和北冬虫夏草完美结合的茅台北冬虫夏草酒堪称“黄金搭档”，让饮酒者既喝茅台酒、又饮“软黄金”。该酒属“茅台酒”序列中占据高端领域的商务型养生酒。</p>
-								<p><a href="https://baike.baidu.com/item/%E8%8C%85%E5%8F%B0%E5%86%AC%E8%99%AB%E5%A4%8F%E8%8D%89%E9%85%92" target="_blank">百度百科</a></p>
+								<p>冬虫夏草具有养肺阴，补肾阳、止咳化痰、抗癌防老的功效，为平补阴阳之品，诸无所忌（男女老少都能吃，是适合人群最广的补品，而且不需要忌嘴，对身体大有补益，补精髓益肺肾，而且药性温和，不似人参会使人产生燥热，有人参之益而无人参之害）。可用于肺痨咳血，阳痿遗精等症。此外，病后体虚不复，自汗畏寒等，可以用冬虫夏草同鸭、鸡、猪肉等炖服，有补虚扶弱之效。</p>
 							</div>
 						</header>
 
@@ -294,7 +293,7 @@
 
 					var s = '<strong>'+(($('#demo-name').val())?$('#demo-name').val():'未知客户')+'</strong>在万宗网站对<strong>'+document.title+'</strong>有兴趣！联系方式：<strong>'+$('#demo-email').val()+'</strong>';
 
-					$.get('https://api.yimian.xyz/mail/?to=i@yimian.xyz&subject=万宗网站消息&body='+s, function(res){
+					$.get('https://api.yimian.xyz/mail/?to=18888283877@163.com&subject=万宗网站消息&body='+s, function(res){
 						if(res == '{"state":true}'){
 							alert('提交成功！我们将尽快与您联系！');
 						}else{
@@ -317,7 +316,7 @@
 
 					var s = '<strong>'+(($('#name').val())?$('#name').val():'未知客户')+'</strong>在万宗网站进行了留言： <strong>'+$('#message').val()+'</strong> 留言者联系方式：<strong>'+$('#email').val()+'</strong>';
 
-					$.get('https://api.yimian.xyz/mail/?to=i@yimian.xyz&subject=万宗网站留言&body='+s, function(res){
+					$.get('https://api.yimian.xyz/mail/?to=18888283877@163.com&subject=万宗网站留言&body='+s, function(res){
 						if(res == '{"state":true}'){
 							alert('提交成功！感谢您的反馈！');
 						}else{

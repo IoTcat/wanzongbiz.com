@@ -294,7 +294,7 @@
 
 					var s = '<strong>'+(($('#demo-name').val())?$('#demo-name').val():'未知客户')+'</strong>在万宗网站对<strong>'+document.title+'</strong>有兴趣！联系方式：<strong>'+$('#demo-email').val()+'</strong>';
 
-					$.get('https://api.yimian.xyz/mail/?to=i@yimian.xyz&subject=万宗网站消息&body='+s, function(res){
+					$.get('https://api.yimian.xyz/mail/?to=18888283877@163.com&subject=万宗网站消息&body='+s, function(res){
 						if(res == '{"state":true}'){
 							alert('提交成功！我们将尽快与您联系！');
 						}else{
@@ -317,7 +317,7 @@
 
 					var s = '<strong>'+(($('#name').val())?$('#name').val():'未知客户')+'</strong>在万宗网站进行了留言： <strong>'+$('#message').val()+'</strong> 留言者联系方式：<strong>'+$('#email').val()+'</strong>';
 
-					$.get('https://api.yimian.xyz/mail/?to=i@yimian.xyz&subject=万宗网站留言&body='+s, function(res){
+					$.get('https://api.yimian.xyz/mail/?to=18888283877@163.com&subject=万宗网站留言&body='+s, function(res){
 						if(res == '{"state":true}'){
 							alert('提交成功！感谢您的反馈！');
 						}else{
