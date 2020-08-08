@@ -1,45 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
-
-<url>
- <loc>http://www.wanzongbiz.com</loc>
- <priority>0.3</priority>
- <lastmod>2020-08-07</lastmod>
- <changefreq>never</changefreq>
-</url>
-
-<url>
- <loc>http://www.wanzongbiz.com/index.html</loc>
- <priority>0.3</priority>
- <lastmod>2020-08-07</lastmod>
- <changefreq>never</changefreq>
-</url>
-
-<url>
- <loc>http://www.wanzongbiz.com/p2.html</loc>
- <priority>0.3</priority>
- <lastmod>2020-08-07</lastmod>
- <changefreq>never</changefreq>
-</url>
-
-<url>
- <loc>http://www.wanzongbiz.com/p1.html</loc>
- <priority>0.3</priority>
- <lastmod>2020-08-07</lastmod>
- <changefreq>never</changefreq>
-</url>
-
-
-<url>
- <loc>http://www.wanzongbiz.com/p3.html</loc>
- <priority>0.3</priority>
- <lastmod>2020-08-07</lastmod>
- <changefreq>never</changefreq>
-</url>
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.wanzongbiz.com</loc>
+    <lastmod>2020-08-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.wanzongbiz.com/p3.html</loc>
+    <lastmod>2020-08-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://www.wanzongbiz.com/p2.html</loc>
+    <lastmod>2020-08-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://www.wanzongbiz.com/index.html</loc>
+    <lastmod>2020-08-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.wanzongbiz.com/p1.html</loc>
+    <lastmod>2020-08-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
+<!--<guid value="130cf6d7-0675-4e65-95e2-817d4c4e583e" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
